@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="presente.png" type="image/x-icon">
+    <title>Presente</title>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Oi, Princesa</strong>
+                        <p>
+                          Arrumei um jeitinho diferente pra dizer que eu te amo muito e tudo me lembra você, tudo que eu vejo, eu quero fazer pra você. É meu jeitinho de te dizer que você é especial  ✨🤍.
+                    
+                          Eu te amo, meu amor e sempre vou te lembrar isso de algum jeitinho diferente. 🖤🌻
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <div class="button">
+        <button>
+            <a href="flower.html">Tem mais uma<br> coisinha aqui</a>
+        </button>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
