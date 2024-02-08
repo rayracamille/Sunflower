@@ -77,6 +77,14 @@ body{
   text-align: left;
   font-size: 7.9px;
 }
+.ass {
+  position: absolute;
+  z-index: 4;
+  top: 63.3%;
+  left: 14%;
+  color: #e95f55;
+  font-size: 0.9rem;
+}
 .heart {
   position: absolute;
   top: 53.5%;
