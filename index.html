@@ -28,14 +28,32 @@
     </div>
     <div class="button">
         <button>
-            <a href="flower.html">Tem mais uma<br> coisinha aqui</a>
+            <a href="flower.html">Tem uma<br> coisinha aqui</a>
         </button>
     </div>
+    <button class="btnOpen">Tem mais uma<br>coisinha aqui</button>
+    <dialog>
+      <h2>Surpresaaa 🥳</h2>
+      <hr />
+      <img src="compra.png" width="100%" height="80%">
+      <hr />
+       <button class="btnClose">Ebaaa</button>
+    </dialog>
     <script>
         const envelope = document.querySelector('.envelope-wrapper');
         envelope.addEventListener('click', () => {
             envelope.classList.toggle('flap');
         });
+        const button = document.querySelector('.btnOpen')
+        const modal = document.querySelector("dialog")
+        const buttonClose = document.querySelector("dialog button")
+
+        button.onclick = function () {
+          modal.showModal()
+        }
+        buttonClose.onclick = function () {
+          modal.close()
+        }
     </script>
 </body>
 </html>
