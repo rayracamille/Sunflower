@@ -128,7 +128,7 @@ body{
 }
 
 .btn{
-    background-image: url("Teste.jpg");
+    background-image: url("fundo.jpg");
     border-radius: 10px;
     font-weight: bold;
     padding: 2px 25px;
@@ -144,20 +144,20 @@ body{
 }
 
 .btnOpen {
-  background-image: url("Teste.jpg");
+  background-image: url("fundo.jpg");
   border-radius: 10px;
   font-weight: bold;
-  padding: 7.9px 20px;
+  padding: 3.5px 25px;
+  border-top: 0.1px solid transparent;
   border: none;
   position: relative;
-  left: 23vmin;
-  top: -85vmin;
-  font-size: 0.6rem;
+  left: 22vmin;
+  top: -79.9vmin;
+  font-size: 0.7rem;
   color: deeppink;
 }
-
 .btnClose {
-  background-color: red;
+  background-color: deeppink;
   border: none;
   border-radius: 5px;
   color: white;
@@ -175,4 +175,10 @@ dialog {
   border-radius: .5rem;
   box-shadow: 0 0 1em rgb(0 0 0 / .3);
   width: 85%;
+}
+h2 {
+  color: deeppink;
+}
+hr {
+  border: 0.8px solid rgba(128, 128, 128, 0.3);
 }
